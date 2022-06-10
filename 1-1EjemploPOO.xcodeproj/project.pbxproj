@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B40885F32853AB7D00538E45 /* MazdaMini.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40885F22853AB7D00538E45 /* MazdaMini.swift */; };
 		B4A5FE032853992B001CB148 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5FE022853992B001CB148 /* AppDelegate.swift */; };
 		B4A5FE052853992B001CB148 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5FE042853992B001CB148 /* SceneDelegate.swift */; };
 		B4A5FE072853992B001CB148 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5FE062853992B001CB148 /* ViewController.swift */; };
 		B4A5FE0A2853992B001CB148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A5FE082853992B001CB148 /* Main.storyboard */; };
 		B4A5FE0C2853992C001CB148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A5FE0B2853992C001CB148 /* Assets.xcassets */; };
 		B4A5FE0F2853992C001CB148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4A5FE0D2853992C001CB148 /* LaunchScreen.storyboard */; };
+		B4A5FE1728539E35001CB148 /* ClaseMazda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5FE1628539E35001CB148 /* ClaseMazda.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B40885F22853AB7D00538E45 /* MazdaMini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazdaMini.swift; sourceTree = "<group>"; };
 		B4A5FDFF2853992B001CB148 /* 1-1EjemploPOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1-1EjemploPOO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A5FE022853992B001CB148 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4A5FE042853992B001CB148 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B4A5FE0B2853992C001CB148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A5FE0E2853992C001CB148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4A5FE102853992C001CB148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A5FE1628539E35001CB148 /* ClaseMazda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaseMazda.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				B4A5FE0B2853992C001CB148 /* Assets.xcassets */,
 				B4A5FE0D2853992C001CB148 /* LaunchScreen.storyboard */,
 				B4A5FE102853992C001CB148 /* Info.plist */,
+				B4A5FE1628539E35001CB148 /* ClaseMazda.swift */,
+				B40885F22853AB7D00538E45 /* MazdaMini.swift */,
 			);
 			path = "1-1EjemploPOO";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A5FE072853992B001CB148 /* ViewController.swift in Sources */,
+				B4A5FE1728539E35001CB148 /* ClaseMazda.swift in Sources */,
 				B4A5FE032853992B001CB148 /* AppDelegate.swift in Sources */,
 				B4A5FE052853992B001CB148 /* SceneDelegate.swift in Sources */,
+				B40885F32853AB7D00538E45 /* MazdaMini.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
